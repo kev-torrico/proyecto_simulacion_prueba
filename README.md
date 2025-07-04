@@ -2,7 +2,7 @@
 
 ### 0 Clonar el repositorio 
 
-`git clone [python -m venv venv](https://github.com/kev-torrico/proyecto_simulacion_prueba)`
+`git clone (https://github.com/kev-torrico/proyecto_simulacion_prueba)`
 
 ### 1 Crear un entorno virtual en el root
 
