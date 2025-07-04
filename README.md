@@ -30,6 +30,6 @@
 
 `flask db upgrade`
 
-### 6 Inicializar la aplicacion flask.
+### 7 Inicializar la aplicacion flask.
 
 `python -m app.main`
