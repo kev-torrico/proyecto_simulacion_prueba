@@ -26,6 +26,10 @@
 
 ### 5 Definir las variables requeridas en un .env. Las variables necesarias estan en .env.example
 
+### 6 Traer las migraciones
+
+`flask db upgrade`
+
 ### 6 Inicializar la aplicacion flask.
 
 `python -m app.main`
