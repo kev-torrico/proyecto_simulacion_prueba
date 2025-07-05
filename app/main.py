@@ -3,6 +3,9 @@ from flask_cors import CORS
 from flask_migrate import Migrate
 from .config.config import config
 from .database.database import db
+#ACA SE IMPORTAN LOS MODELOS PARA SER DETECTADOS POR FLASK-MIGRATE
+from .models.user import User
+from .models.message import Message
 from .routes import all_blueprints
 
 
@@ -12,6 +15,8 @@ CORS(app, origins=config["CORS_ORIGINS"])
 
 db.init_app(app)
 migrate = Migrate(app, db)
+
+
 
 for bp in all_blueprints:
     app.register_blueprint(bp)
